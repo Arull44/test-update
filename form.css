@@ -1,0 +1,97 @@
+body{
+    background: url(beach.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.bg{
+    display: flex; 
+    margin: auto;
+    padding: 50px 50px 30px 50px;
+    background-color: white;
+    width: 50%;
+    opacity: 90%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: sans-serif;
+}
+.form2{
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.judul{
+    text-align: center;
+    font-size: 50px;
+}
+#mlaku{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FF0000;
+}
+#jatim{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+input[type=text]{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #000000;
+    box-sizing: content-box;
+}
+input[type=password]{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-sizing: content-box;
+}
+textarea{
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-sizing: content-box;
+}
+#email{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-sizing: content-box;
+}
+#ttl{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-sizing: content-box;
+}
+.tombol{
+    padding-left: 130px;
+    padding-top: 100px;
+}
+.sign{
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px 0px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.email{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.phone{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+table{
+    border: #000000;
+}

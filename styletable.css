@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: url(beach.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+table, th, td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+tr{
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

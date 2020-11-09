@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="formfix.css">
+</head>
+<body>
+    <nav>
+        <label class="logo1">Mlaku</label><label class="logo2">jatim</label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">Booking</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a class = "klik" id="login" href="#">Login</a></li>
+        </ul>
+    </nav>
+    <div class="bg">
+        <table>
+            <div class="form1">
+                <div class="fname">
+                    <tr>
+                        <td><label for="fname">Firstname: </label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="fname" name="fname" placeholder=" firstname"></td>
+                    </tr>
+                </div>
+                <div class="lname">    
+                    <tr> 
+                        <td><label for="lname">Lastname: </label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="lname" name="lname" placeholder=" lastname"></td>
+                    </tr>
+                </div>
+                <div class="password">
+                    <tr>
+                        <td><label for="password">Password: </label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="password" name="password" placeholder=" masukkan password"></td>
+                    </tr>
+                </div>
+                <div class="konfirmasi">
+                    <tr>
+                        <td><label for="konfirmasi">Konfirmasi Password: </label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="konfirmasi" name="konfirmasi"></td>
+                    </tr>
+                </div>
+                <div class="ttl">
+                    <tr>
+                        <td><label for="ttl">Tempat, tanggal lahir: </label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" id="ttl" style="width: 114px;"><label for="koma">,</label>
+                            <input type="date" name="ttl" id="ttl" style="width: 125px;">
+                        </td>
+                    </tr>
+                </div>
+                <div class="alamat">
+                    <tr>
+                        <td><label for="alamat">Alamat: </label></td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="alamat" id="alamat" cols="25" rows="5"></textarea></td>
+                    </tr>
+                </div>
+            </div>
+        </table>
+        <table>
+            <div class="form2">
+                <div class="gender" style="font-size: 16px;">
+                    <tr>
+                        <td><label for="jeniskelamin">Jenis Kelamin:</label></td>
+                        <td colspan="2">
+                            <input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+                            <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+                        </td>
+                    </tr>
+                </div>
+                <div class="trip" style="font-size: 16px;">
+                    <tr>       
+                        <td rowspan="6"><label for="trip">Pilih trip favorit kalian:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="alam" id="alam"><label for="alam">Alam</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="pantai" id="pantai"><label for="pantai">Pantai</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="budaya" id="budaya"><label for="budaya">Budaya</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="museum" id="museum"><label for="museum">Museum</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="kuliner" id="kuliner"><label for="kuliner">Kuliner</label></td>
+                    </tr>
+                </div>
+                <div class="tombol">
+                    <tr>
+                        <td rowspan="2" colspan="10"><button type="submit">Buat Akun</button></td>
+                    </tr>
+                </div>
+            </div>
+        </table>
+    </div>
+</body>
+</html>

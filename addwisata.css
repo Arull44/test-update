@@ -1,0 +1,33 @@
+body{
+    background-color: #FEE074;
+}
+table, th, td{
+    /* border: 1px solid black;
+    border-collapse: collapse; */
+    margin: auto;
+    padding: 3px;
+}
+table{
+    width: 60%
+}
+tr{
+    width: 100%;
+}
+input[type=text]{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #F2EFAD;
+}
+textarea{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #F2EFAD;
+}
+#masukkangambar{
+    background-color: grey;
+}
+button{
+    text-align: center;
+}
